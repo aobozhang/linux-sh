@@ -8,7 +8,7 @@ sh for daily linux use. eg. mem calc
 git clone https://github.com/aobozhang/linux-sh.git
 cd linux-sh
 chmod +x mem.sh
-link ./mem.sh /usr/local/bin/mem
+ln -s /full/path/to/mem.sh /usr/local/bin/mem
 
 mem [keyword]
 ```
